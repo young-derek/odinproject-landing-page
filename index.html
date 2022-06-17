@@ -6,23 +6,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
-    <title>Landing Page</title>
+    <title>Animal Shelter Landing Page</title>
 </head>
 
 <body>
     <div class="top-section">
         <header>
-            <h2>Header Logo</h2>
+            <h2>Animal Shelter Project</h2>
             <nav>
                 <ul>
-                    <li><a href="#">header link one</a></li>
-                    <li><a href="#">header link two</a></li>
-                    <li><a href="#">header link three</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Contact</a></li>
                 </ul>
             </nav>
         </header>
-        <div class="content">
-            <div class="column">
+        <div class="top-section-content">
+            <div class="top-section-column">
                 <h1>This website is awesome</h1>
                 <p>This website has some subtext that goes here under the main title.
                     It's a smaller font and the color is lower contrast.
@@ -32,26 +32,44 @@
             <img src="./images/alvan-nee-CfDAo3C3bvQ-unsplash.jpg" alt="placeholder for an image">
         </div>
     </div>
-    <h2>Some random information.</h2>
-    <img src="./images/alvan-nee-q-d7ARILppw-unsplash.jpg" alt="image 1">
-    <p>this is some subtext under an illustration or image</p>
-    <img src="./images/alvan-nee-slYrq3QDVv0-unsplash.jpg" alt="image 2">
-    <p>this is some subtext under an illustration or image</p>
-    <img src="./images/alvan-nee-vPnUX-dm6N0-unsplash.jpg" alt="image 3">
-    <p>this is some subtext under an illustration or image</p>
-    <img src="./images/alvan-nee-ALG4WEte_F4-unsplash.jpg" alt="image 4">
-    <p>this is some subtext under an illustration or image</p>
-    <div class="quote-section">
-        <p>This is an inspiring quote, or a testimonial from a customer.
-            Maybe it's just filling up space, or maybe people will actually
-            read it. Who knows? All I know is that it looks nice.
-        </p>
-        <p>-Thor, God of Thunder</p>
-    </div>
+    <section class="pet-listing-section">
+        <h2 class="text-center">Some random information.</h2>
+        <div class="pet-listings-container">
+            <div class="pet-listing">
+                <img src="./images/alvan-nee-q-d7ARILppw-unsplash.jpg" alt="image 1">
+                <p>this is some subtext under an illustration or image</p>
+            </div>
+            <div class="pet-listing">
+                <img src="./images/alvan-nee-DGInNHt1nXo-unsplash.jpg" alt="image 2">
+                <p>this is some subtext under an illustration or image</p>
+            </div>
+            <div class="pet-listing">
+                <img src="./images/alvan-nee-vPnUX-dm6N0-unsplash.jpg" alt="image 3">
+                <p>this is some subtext under an illustration or image</p>
+            </div>
+            <div class="pet-listing">
+                <img src="./images/alvan-nee-ALG4WEte_F4-unsplash.jpg" alt="image 4">
+                <p>this is some subtext under an illustration or image</p>
+            </div>
+        </div>
+    </section>
+    <section class="quote-section">
+        <div class="quote-container">
+            <p class="quote-text">This is an inspiring quote, or a testimonial from a customer.
+                Maybe it's just filling up space, or maybe people will actually
+                read it. Who knows? All I know is that it looks nice.
+            </p>
+            <p class="quote-author">-Thor, God of Thunder</p>
+        </div>
+    </section>
 
-    <h3>Call to action! It's time!</h3>
-    <p>Sign up for our product by clicking that button right over there!</p>
-    <button type="submit" value="Sign up">Sign up</button>
+    <section class="cta-section">
+        <div class="cta-container">
+            <p><strong>Call to action! It's time!</strong><br>
+                Sign up for our product by clicking that button right over there!</p>
+            <button type="submit" value="Sign up">Sign up</button>
+        </div>
+    </section>
 
     <footer>Created by Derek Young for theodinproject Landing Page Project</footer>
 </body>
