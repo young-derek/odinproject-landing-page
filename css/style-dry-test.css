@@ -1,0 +1,189 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header ul,
+.top-section header,
+.top-section-content,
+.top-section-column,
+.pet-listing-section,
+.pet-listings-container,
+.pet-listing,
+.quote-section,
+.cta-section,
+.cta-container,
+footer {
+    display: flex;
+}
+
+.top-section header,
+.pet-listing-section,
+.pet-listing,
+.quote-section,
+.cta-section,
+.cta-container,
+footer {
+    align-items: center;
+}
+
+.top-section header,
+.cta-container {
+    justify-content: space-between;
+}
+
+.top-section-column,
+.pet-listing-section {
+    flex-direction: column;
+}
+
+header h2,
+.top-section h1,
+button,
+.cta-section,
+.cta-section button {
+    color: #F9FAF8;
+}
+
+header h2 {
+    font-size: 24px;
+}
+
+header ul,
+li a,
+.top-section p,
+button,
+.quote-author,
+.cta-section,
+footer {
+    font-size: 18px;
+}
+
+header ul {
+    list-style: none;
+    gap: 16px;
+}
+
+.top-section,
+footer {
+    background-color: #1F2937;
+}
+
+button,
+.cta-container {
+    background-color: #3882F6;
+}
+
+.top-section header,
+.top-section img,
+.pet-listings-container,
+.quote-container,
+.cta-container {
+    margin: auto;
+}
+
+.top-section header,
+.top-section-content,
+.cta-container {
+    width: 70%;
+}
+
+.top-section img {
+    width: 40%;
+}
+
+.top-section h1 {
+    font-weight: bolder;
+    font-size: 48px;
+    margin: 8px 0 0 0;
+}
+
+.top-section-content {
+    margin: 0px auto;
+    padding: 32px 0;
+}
+
+.top-section-column {
+    width: 50%;
+    align-items: flex-start;
+}
+
+li a,
+.top-section p,
+footer {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+button {
+    padding: 8px 32px;
+    border-radius: 8px;
+    border: none;
+}
+
+.text-center,
+.pet-listing {
+    text-align: center;
+}
+
+.pet-listing-section {
+    padding: 16px 0;
+}
+
+.pet-listings-container {
+    width: 60%;
+}
+
+.pet-listing {
+    flex-flow: column wrap;
+    width: 25%;
+}
+
+.pet-listing img {
+    width: 90%;
+    border-radius: 10px;
+    border: 3px solid #3882F6;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 48px 0;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+    margin-bottom: 0;
+}
+
+.quote-author {
+    font-weight: bold;
+    text-align: right;
+}
+
+.quote-container {
+    width: 55%;
+}
+
+.cta-section {
+    padding: 120px 0;
+}
+
+.cta-container,
+footer {
+    padding: 32px;
+}
+
+.cta-container {
+    border-radius: 8px;
+}
+
+.cta-section button {
+    border: 2px solid #F9FAF8;
+}
+
+footer,
+.pet-listing {
+    justify-content: center;
+}
